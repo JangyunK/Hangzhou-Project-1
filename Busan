@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome to Busan</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #0072C6;
+      color: #FFFFFF;
+      padding: 10px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 36px;
+      font-weight: bold;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h2 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 30px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 20px auto;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Busan</h1>
+  </header>
+  <main>
+    <h2>About Busan</h2>
+    <p>Busan is a port city in the south of South Korea. With a population of over 3.5 million people, it is the second-largest city in the country after Seoul. Busan is known for its beautiful beaches, bustling markets, and delicious seafood.</p>
+    <img src="https://cdn.pixabay.com/photo/2017/09/01/06/09/south-korea-2700868_960_720.jpg" alt="Busan cityscape">
+    <h2>Things to do in Busan</h2>
+    <p>If you're visiting Busan, here are some things you shouldn't miss:</p>
+    <ul>
+      <li>Visit Haeundae Beach, one of the most popular beaches in Korea</li>
+      <li>Explore the colorful and bustling Jagalchi Fish Market</li>
+      <li>Take a cable car up to the top of Mt. Hwangnyeongsan for a breathtaking view of the city</li>
+      <li>Visit the Gamcheon Culture Village, a hillside community with colorful houses and murals</li>
+      <li>Enjoy fresh seafood at one of the many restaurants near the harbor</li>
+    </ul>
+    <img src="https://cdn.pixabay.com/photo/2016/06/14/16/08/haeundae-beach-1450847_960_720.jpg" alt="Haeundae Beach">
+    <h2>Getting to Busan</h2>
+    <p>Busan is easily accessible by plane, train, and bus. The city has its own international airport, the Busan-Gimhae International Airport, which connects to major cities around the world. There are also several train stations in Busan, including the Busan Station and the Haeundae Station. Additionally, there are several bus terminals in Busan that connect to cities all over South Korea.</p>
+  </main>
+</body>
+</html>
