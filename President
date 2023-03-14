@@ -1,0 +1,2 @@
+intro = "My fellow Koreans, I am pleased to be speaking with you today."
+print(intro)
