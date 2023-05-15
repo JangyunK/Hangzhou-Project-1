@@ -1,0 +1,42 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main() {
+    char source[] = "C:\\Users\\kim26\\OneDrive\\바탕 화면\\대학생활\\2023-1학기\\C++ 문제 파일정리\\5월 16일(2)\\source.txt";
+    char destination[] = "C:\\Users\\kim26\\OneDrive\\바탕 화면\\대학생활\\2023-1학기\\C++ 문제 파일정리\\5월 16일(2)\\copy.txt";
+
+    ifstream fin(source);
+    ofstream fout(destination);
+
+    if (!fin) {
+        cout << source << " 열기 오류";
+        return 0;
+    }
+
+    if (!fout) {
+        cout << destination << " 열기 오류";
+        return 0;
+    }
+
+    int count = 0;
+    int c;
+
+    while ((c = fin.get()) != EOF) {
+        char currentChar = (char)c;
+        cout << currentChar;
+        fout << currentChar;
+        count++;
+    }
+
+    cout << "---------------------------" << endl;
+    cout << "읽은 바이트 수는 " << count << endl;
+
+    fout << "---------------------------" << endl;
+    fout << "읽은 바이트 수는 " << count << endl;
+
+    fin.close();
+    fout.close();
+
+    return 0;
+}
